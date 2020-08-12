@@ -1,0 +1,75 @@
+.Hookah {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+
+  background-color: #EEEEEE;
+  border-radius: 15px;
+
+  &__img {
+    width: 17.5%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 82.5%;
+    padding: 20px 0 14px 12px;
+    min-height: 161px;
+
+    &_nameAndRating {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &_creator {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-right: 17.91px;
+
+      .creator__about {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        img {
+          width: 21px;
+          height: 21px;
+          display: block;
+          margin-right: 12px;
+        }
+      }
+
+      .creator__icon {
+        width: 22.18px;
+
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+
+    }
+
+    &_keywords {
+      overflow-x: auto;
+      width: 100%;
+      padding-bottom: 6px;
+    }
+  }
+}

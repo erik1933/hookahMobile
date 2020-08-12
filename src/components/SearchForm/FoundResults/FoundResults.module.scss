@@ -1,0 +1,30 @@
+.FoundResults {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 55px 45px 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  min-height: 90px;
+  width: 100%;
+  border-radius: 22px;
+  background-color: #eee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  visibility: visible;
+
+  //transition: min-height .4s ease-in-out, padding .4s ease-in-out, bax-shadow .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.collapsed {
+  visibility: hidden;
+  min-height: 0;
+  padding: 0 45px;
+  box-shadow: none;
+  z-index: -1;
+}
