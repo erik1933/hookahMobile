@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hookahMobile/static/css/main.3b39c6d5.chunk.css",
+    "main.css": "/hookahMobile/static/css/main.f8659950.chunk.css",
     "main.js": "/hookahMobile/static/js/main.950ffb2b.chunk.js",
     "main.js.map": "/hookahMobile/static/js/main.950ffb2b.chunk.js.map",
     "runtime-main.js": "/hookahMobile/static/js/runtime-main.54a76ff7.js",
@@ -8,9 +8,9 @@
     "static/js/2.b94bcbf2.chunk.js": "/hookahMobile/static/js/2.b94bcbf2.chunk.js",
     "static/js/2.b94bcbf2.chunk.js.map": "/hookahMobile/static/js/2.b94bcbf2.chunk.js.map",
     "index.html": "/hookahMobile/index.html",
-    "precache-manifest.8ca96de1c58f62c69ba8fa5c632ab6b9.js": "/hookahMobile/precache-manifest.8ca96de1c58f62c69ba8fa5c632ab6b9.js",
+    "precache-manifest.418ad5a9bce84b23c09972f4878d5743.js": "/hookahMobile/precache-manifest.418ad5a9bce84b23c09972f4878d5743.js",
     "service-worker.js": "/hookahMobile/service-worker.js",
-    "static/css/main.3b39c6d5.chunk.css.map": "/hookahMobile/static/css/main.3b39c6d5.chunk.css.map",
+    "static/css/main.f8659950.chunk.css.map": "/hookahMobile/static/css/main.f8659950.chunk.css.map",
     "static/js/2.b94bcbf2.chunk.js.LICENSE.txt": "/hookahMobile/static/js/2.b94bcbf2.chunk.js.LICENSE.txt",
     "static/media/arrow-angle-down.svg": "/hookahMobile/static/media/arrow-angle-down.6f443958.svg",
     "static/media/bb45.png": "/hookahMobile/static/media/bb45.8f6775ac.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.54a76ff7.js",
     "static/js/2.b94bcbf2.chunk.js",
-    "static/css/main.3b39c6d5.chunk.css",
+    "static/css/main.f8659950.chunk.css",
     "static/js/main.950ffb2b.chunk.js"
   ]
 }

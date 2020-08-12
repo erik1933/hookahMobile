@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc958d1d1d5972ac1a08a9f901a9f04e",
+    "revision": "8a1a2aa31b2e6bc2c763a27a1bd0decd",
     "url": "/hookahMobile/index.html"
   },
   {
-    "revision": "5d5d17dd2ec593a6fa1a",
-    "url": "/hookahMobile/static/css/main.3b39c6d5.chunk.css"
+    "revision": "f2ab851777b4063a2555",
+    "url": "/hookahMobile/static/css/main.f8659950.chunk.css"
   },
   {
     "revision": "6df5c123b5cc68412791",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hookahMobile/static/js/2.b94bcbf2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d5d17dd2ec593a6fa1a",
+    "revision": "f2ab851777b4063a2555",
     "url": "/hookahMobile/static/js/main.950ffb2b.chunk.js"
   },
   {
