@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a1a2aa31b2e6bc2c763a27a1bd0decd",
+    "revision": "b78e224b1d65e6e51db655c7ee8f2abd",
     "url": "/hookahMobile/index.html"
   },
   {
-    "revision": "f2ab851777b4063a2555",
-    "url": "/hookahMobile/static/css/main.f8659950.chunk.css"
+    "revision": "a66096a7dc3206a512be",
+    "url": "/hookahMobile/static/css/main.c5512571.chunk.css"
   },
   {
-    "revision": "6df5c123b5cc68412791",
-    "url": "/hookahMobile/static/js/2.b94bcbf2.chunk.js"
+    "revision": "3e15cec00be38fd76551",
+    "url": "/hookahMobile/static/js/2.be9054ae.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/hookahMobile/static/js/2.b94bcbf2.chunk.js.LICENSE.txt"
+    "url": "/hookahMobile/static/js/2.be9054ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2ab851777b4063a2555",
-    "url": "/hookahMobile/static/js/main.950ffb2b.chunk.js"
+    "revision": "a66096a7dc3206a512be",
+    "url": "/hookahMobile/static/js/main.d0137040.chunk.js"
   },
   {
     "revision": "71e2d3b7c5b10b8ec3d7",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f6775acf5283293bbcbf22ba7d6f958",
     "url": "/hookahMobile/static/media/bb45.8f6775ac.png"
+  },
+  {
+    "revision": "53c50a560cd6b09081400b3be8b60fdc",
+    "url": "/hookahMobile/static/media/delete-cross.53c50a56.svg"
   },
   {
     "revision": "fc82a7a65516a745a26477e3e8aed7de",
