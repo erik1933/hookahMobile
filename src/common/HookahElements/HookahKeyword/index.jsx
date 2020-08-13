@@ -7,7 +7,7 @@ import styles from './HookahKeyword.module.scss';
 
 const HookahKeyword = ({label}) => {
   return (
-    <span className={styles.HookayKeyword}>
+    <span className={styles.HookahKeyword}>
       {label}
     </span>
   );

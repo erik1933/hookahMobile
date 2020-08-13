@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {nanoid} from 'nanoid';
 
 //styles
@@ -61,6 +62,20 @@ const Hookah = ({
       </div>
     </div>
   )
+}
+
+Hookah.propTypes = {
+  img: PropTypes.string,
+  alt: PropTypes.string,
+  name: PropTypes.string,
+  rating: PropTypes.string,
+  creatorImg: PropTypes.string,
+  creatorImgAlt: PropTypes.string,
+  creatorName: PropTypes.string,
+  icon: PropTypes.string,
+  iconAlt: PropTypes.string,
+  keywords: PropTypes.array, // <-- Array
+  isNew: PropTypes.bool // <-- Boolean
 }
 
 

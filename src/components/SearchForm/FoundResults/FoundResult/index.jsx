@@ -1,14 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 //styles
 import styles from './FoundResult.module.scss';
 
 
-const FoundResult = () => {
+const FoundResult = ({label, onSelect}) => {
+
+
   return (
-    <span className={styles.FoundResult}>
-      Яблоко
-    </span>
+    <button
+      className={styles.FoundResult}
+      onClick={() => onSelect(label)}
+    >
+      {label}
+    </button>
   )
 };
 

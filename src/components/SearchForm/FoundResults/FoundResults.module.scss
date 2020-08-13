@@ -1,17 +1,18 @@
 .FoundResults {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   z-index: 1;
-  padding: 55px 45px 15px;
+  padding: 25px 45px 15px;
 
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  align-items: center;
 
-  min-height: 90px;
+  min-height: 70px;
   width: 100%;
-  border-radius: 22px;
+  border-radius: 0 0 22px 22px;
   background-color: #eee;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
