@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hookahMobile/static/css/main.d83bcc12.chunk.css",
-    "main.js": "/hookahMobile/static/js/main.d0137040.chunk.js",
-    "main.js.map": "/hookahMobile/static/js/main.d0137040.chunk.js.map",
+    "main.css": "/hookahMobile/static/css/main.28d42010.chunk.css",
+    "main.js": "/hookahMobile/static/js/main.47c48d37.chunk.js",
+    "main.js.map": "/hookahMobile/static/js/main.47c48d37.chunk.js.map",
     "runtime-main.js": "/hookahMobile/static/js/runtime-main.54a76ff7.js",
     "runtime-main.js.map": "/hookahMobile/static/js/runtime-main.54a76ff7.js.map",
-    "static/js/2.be9054ae.chunk.js": "/hookahMobile/static/js/2.be9054ae.chunk.js",
-    "static/js/2.be9054ae.chunk.js.map": "/hookahMobile/static/js/2.be9054ae.chunk.js.map",
+    "static/js/2.da8840f4.chunk.js": "/hookahMobile/static/js/2.da8840f4.chunk.js",
+    "static/js/2.da8840f4.chunk.js.map": "/hookahMobile/static/js/2.da8840f4.chunk.js.map",
     "index.html": "/hookahMobile/index.html",
-    "precache-manifest.c6a2ad8a53bf4d1d83589b6ae73ffdaf.js": "/hookahMobile/precache-manifest.c6a2ad8a53bf4d1d83589b6ae73ffdaf.js",
+    "precache-manifest.85a7b0d6cc2111e0c01252b711a4ffae.js": "/hookahMobile/precache-manifest.85a7b0d6cc2111e0c01252b711a4ffae.js",
     "service-worker.js": "/hookahMobile/service-worker.js",
-    "static/css/main.d83bcc12.chunk.css.map": "/hookahMobile/static/css/main.d83bcc12.chunk.css.map",
-    "static/js/2.be9054ae.chunk.js.LICENSE.txt": "/hookahMobile/static/js/2.be9054ae.chunk.js.LICENSE.txt",
+    "static/css/main.28d42010.chunk.css.map": "/hookahMobile/static/css/main.28d42010.chunk.css.map",
+    "static/js/2.da8840f4.chunk.js.LICENSE.txt": "/hookahMobile/static/js/2.da8840f4.chunk.js.LICENSE.txt",
     "static/media/arrow-angle-down.svg": "/hookahMobile/static/media/arrow-angle-down.6f443958.svg",
     "static/media/bb45.png": "/hookahMobile/static/media/bb45.8f6775ac.png",
     "static/media/delete-cross.svg": "/hookahMobile/static/media/delete-cross.53c50a56.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54a76ff7.js",
-    "static/js/2.be9054ae.chunk.js",
-    "static/css/main.d83bcc12.chunk.css",
-    "static/js/main.d0137040.chunk.js"
+    "static/js/2.da8840f4.chunk.js",
+    "static/css/main.28d42010.chunk.css",
+    "static/js/main.47c48d37.chunk.js"
   ]
 }
