@@ -1,0 +1,16 @@
+.CoalSize {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 30px;
+  margin-top: 5px;
+  width: 22%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.CoalSize.selected {
+  border: 1px solid #151515;
+}
+.CoalSize:hover {
+  cursor: pointer;
+}

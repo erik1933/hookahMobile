@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+
+.AddMix {
+
+  &__content {
+    padding: 0 12px;
+    width: 100%;
+
+    .AddMix__heading {
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.GeneralInfo {
+  margin-top: 20px;
+  background-color: #EEEEEE;
+  border-radius: 15px;
+  padding: 20px 22px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+
+  &__heading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+    margin-top: 20px;
+
+    label {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      margin-bottom: 10px;
+    }
+
+    input {
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      border: none;
+      font-size: 12px;
+      padding: 9px 12px 10px;
+      width: 100%;
+    }
+  }
+
+  &__strongness {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+
+    label {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+}

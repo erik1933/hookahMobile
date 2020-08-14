@@ -1,0 +1,60 @@
+.StrongnessScale {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+
+  &__text {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+
+
+  &__ranges {
+    width: 100%;
+
+
+
+    //&_rangeOne, &_rangeTwo {
+    //  width: 100%;
+    //
+    //  -webkit-appearance: none;
+    //  height: 4px;
+    //  background-color: #fff;
+    //  outline: none;
+    //  border-radius: 4px;
+    //
+    //  &::-webkit-slider-thumb {
+    //    position: relative;
+    //    z-index: 6;
+    //    -webkit-appearance: none;
+    //    appearance: none;
+    //    width: 21px;
+    //    height: 21px;
+    //    background-color: #A3A2A2;
+    //    cursor: pointer;
+    //    border-radius: 6px;
+    //  }
+    //}
+    //
+    //&_rangeOne {
+    //  position: relative;
+    //  z-index: 3;
+    //}
+    //
+    //&_rangeTwo {
+    //  width: 100%;
+    //  position: sticky;
+    //  left: 0;
+    //  z-index: 3;
+    //  top: 50%;
+    //  z-index: 3;
+    //}
+  }
+}
+
