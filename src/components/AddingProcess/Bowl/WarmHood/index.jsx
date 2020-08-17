@@ -2,6 +2,7 @@ import React from "react";
 
 //styles
 import styles from './WarmHood.module.scss';
+import './cstmInput.css';
 
 
 const WarmHood = () => {
@@ -10,7 +11,13 @@ const WarmHood = () => {
       <span className={styles.WarmHood__text}>
         Греть под колпаком?
       </span>
-      <input type="checkbox" className={styles.WarmHood__checkbox} name="warmHood"/>
+
+      <label className="b-contain">
+        {/*<span>First checkbox</span>*/}
+        <input type="checkbox"/>
+        <div className="b-input"></div>
+      </label>
+
     </div>
   )
 };
