@@ -7,6 +7,9 @@ import styles from './FilterForm.module.scss';
 import dice from '../../assets/dice.svg';
 import arrowAngleDown from '../../assets/arrow-angle-down.svg';
 
+//components
+import FilterList from "./FilterList";
+
 
 const FilterForm = () => {
 
@@ -20,10 +23,13 @@ const FilterForm = () => {
     <div className={styles.FilterForm}>
       <img src={dice} alt="" className={styles.FilterForm__img}/>
       <button
-        className={`${styles.FilterForm__btn} ${isOpen ? styles.isOpen : null}`}
+        className={`${styles.FilterForm__btn} ${isOpen ? styles.isOpen : ''}`}
         onClick={handleOpen}
       >
-        <span>Сортировать по:</span> <img src={arrowAngleDown} alt=""/>
+        <span>Сортировать по:</span> <img src={arrowAngleDown} alt={isOpen ? 'arrow up' : 'arrow down'} />
+
+        <FilterList isListOpen={isOpen} />
+
       </button>
     </div>
   )

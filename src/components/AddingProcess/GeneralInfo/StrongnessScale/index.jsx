@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 
@@ -33,17 +33,26 @@ const useStyles = makeStyles({
 
 const StrongnessScale = () => {
 
-  const [value, setValue] = React.useState([1, 3]);
+  const [value, setValue] = useState([1, 3]);
 
 
   const handleChange = (event, newValue) => {
 
-    newValue[1] = newValue[0] + 2;
+    setValue(prevState => {
+      if(prevState[0] !== newValue[0]) {
+        if(newValue[0] >= 8) {
+          newValue[0] = 8
+        }
+        newValue[1] = newValue[0] + 2;
+      } else if(prevState[1] !== newValue[1]) {
+        if(newValue[1] <= 3) {
+          newValue[1] = 3
+        }
+        newValue[0] = newValue[1] - 2;
+      }
+      setValue(newValue);
+    })
 
-    if(newValue[1] > 10) {
-      newValue[0] = 8;
-    }
-    setValue(newValue);
   };
 
   console.log(value[0], value[1]);
