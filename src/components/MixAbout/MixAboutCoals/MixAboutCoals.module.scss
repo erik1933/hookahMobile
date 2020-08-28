@@ -1,0 +1,19 @@
+.MixAboutCoals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  padding-left: 45px;
+
+  &__detail {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+    &:nth-child(2) {
+      margin: 10px 0;
+    }
+  }
+}

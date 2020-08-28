@@ -1,0 +1,20 @@
+.MixHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &__heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

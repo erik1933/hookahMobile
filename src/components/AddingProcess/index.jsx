@@ -8,6 +8,7 @@ import GeneralInfo from "./GeneralInfo";
 import Recipe from "./Recipe";
 import Coals from "./Coals";
 import Bowl from "./Bowl";
+import Note from "./Note";
 
 
 
@@ -19,6 +20,7 @@ const AddingProcess = () => {
       <Recipe />
       <Coals />
       <Bowl />
+      <Note />
 
       <button className={styles.AddingProcess__submit}>
         Создать микс

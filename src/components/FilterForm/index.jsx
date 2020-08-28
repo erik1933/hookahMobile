@@ -22,15 +22,17 @@ const FilterForm = () => {
   return (
     <div className={styles.FilterForm}>
       <img src={dice} alt="" className={styles.FilterForm__img}/>
-      <button
-        className={`${styles.FilterForm__btn} ${isOpen ? styles.isOpen : ''}`}
-        onClick={handleOpen}
-      >
-        <span>Сортировать по:</span> <img src={arrowAngleDown} alt={isOpen ? 'arrow up' : 'arrow down'} />
+      <div className={styles.FilterForm__container}>
+        <button
+          className={`${styles.FilterForm__btn} ${isOpen ? styles.isOpen : ''}`}
+          onClick={handleOpen}
+        >
+          <span>Сортировать по:</span> <img src={arrowAngleDown} alt={isOpen ? 'arrow up' : 'arrow down'}/>
 
-        <FilterList isListOpen={isOpen} />
+        </button>
+        <FilterList isListOpen={isOpen}/>
 
-      </button>
+      </div>
     </div>
   )
 };

@@ -1,0 +1,47 @@
+.MixAboutItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 20px 22px;
+  width: 100%;
+
+  &__toggleBtn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    &:hover {
+      cursor: pointer;
+    }
+
+    &_text {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+
+      img {
+        margin-right: 12px;
+      }
+    }
+
+    &_arrow {
+      transform: rotateX(180deg);
+      transition: transform .4s ease-in-out;
+    }
+    &_arrow.close {
+      transform: rotateX(0);
+    }
+  }
+}

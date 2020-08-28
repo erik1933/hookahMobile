@@ -1,6 +1,6 @@
 .FilterList {
   position: absolute;
-  z-index: -8;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
@@ -15,10 +15,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  visibility: hidden;
+  opacity: 0;
 
   overflow: hidden;
 
-  transition: padding .4s ease-in-out, height .4s ease-in-out;
+  transition: all .4s ease-in-out;
 
   &__item {
     button {
@@ -42,7 +44,9 @@
 
 .FilterList.isOpen {
   padding: 54px 12px 20px;
-  height: 150px;
+  height: 175px;
+  visibility: visible;
+  opacity: 1;
 }
 
 

@@ -1,0 +1,10 @@
+.MixAboutItemDetails {
+  overflow: hidden;
+  width: 100%;
+  max-height: 1000px;
+  transition: max-height .4s ease-in-out;
+
+  &.close {
+    max-height: 0;
+  }
+}

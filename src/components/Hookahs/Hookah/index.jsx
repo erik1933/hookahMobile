@@ -18,21 +18,18 @@ import HookahKeyword from "../../../common/HookahElements/HookahKeyword";
 
 const Hookah = ({
                   img,
-                  alt,
                   name,
                   rating,
                   creatorImg,
-                  creatorImgAlt,
                   creatorName,
                   icon,
-                  iconAlt,
                   keywords,
                   isNew
                 }) => {
   return (
     <div className={styles.Hookah}>
       <div className={styles.Hookah__img}>
-        <HookahImg imgAlt={alt} imgSrc={img} />
+        <HookahImg imgSrc={img} />
       </div>
       <div className={styles.Hookah__details}>
         <div className={styles.Hookah__details_nameAndRating}>
@@ -43,11 +40,11 @@ const Hookah = ({
         </div>
         <div className={styles.Hookah__details_creator}>
           <p className={styles.creator__about}>
-            <HookahCreatorImg imgSrc={creatorImg} imgAlt={creatorImgAlt} />
+            <HookahCreatorImg imgSrc={creatorImg} imgAlt={creatorName} />
             <HookahCreatorName label={creatorName} />
           </p>
           <div className={styles.creator__icon}>
-            <HookahIcon imgSrc={icon} imgAlt={iconAlt} />
+            <HookahIcon imgSrc={icon} imgAlt="icon" />
           </div>
         </div>
         <div className={styles.Hookah__details_keywords}>

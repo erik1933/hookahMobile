@@ -1,0 +1,51 @@
+.MixAboutTobbaco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+
+  &__tobbaco {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 12px;
+
+    border-radius: 15px;
+    &.tobbaco1 {
+      background-color: #3D81C0;
+    }
+    &.tobbaco2 {
+      background-color: #3DC062;
+      margin-top: 20px;
+    }
+
+    &_name {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.MixAboutTobbaco__tobbaco_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.MixAboutTobbaco__tobbaco_taste {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.MixAboutTobbaco__tobbaco_percentage {
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}

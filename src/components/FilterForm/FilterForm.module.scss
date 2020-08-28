@@ -9,8 +9,15 @@
     padding-right: 62.39px;
   }
 
-  &__btn {
+  &__container {
+    position: relative;
     flex: 1;
+    z-index: 6;
+  }
+
+  &__btn {
+    width: 100%;
+    height: 100%;
     background-color: #EEEEEE;
     border-radius: 10px;
     border: none;
