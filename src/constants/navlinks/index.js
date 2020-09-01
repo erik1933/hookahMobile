@@ -14,7 +14,7 @@ const navbar1Items = [
   },
   {
     id: 2,
-    href: '/search',
+    href: '/hookahMobile/search',
     src: searchPageIcon,
     alt: 'search page'
   },
