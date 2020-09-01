@@ -1,0 +1,13 @@
+.MixAboutTobaccoPieChart {
+  width: 30%;
+  position: relative;
+
+  &__img {
+    position: absolute;
+    top: 48%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+  }
+}

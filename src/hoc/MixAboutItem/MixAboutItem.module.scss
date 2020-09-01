@@ -31,9 +31,15 @@
       font-size: 16px;
       line-height: 20px;
 
-      img {
-        margin-right: 12px;
+      span {
+        display: inline-flex;
+        width: 44px;
+
+        //img {
+        //  margin-right: 12px;
+        //}
       }
+
     }
 
     &_arrow {

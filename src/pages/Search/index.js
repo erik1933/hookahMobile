@@ -6,12 +6,12 @@ import FilterForm from "../../components/FilterForm";
 import Hookahs from "../../components/Hookahs";
 
 //styles
-// import styles from './Search.module.scss';
+import styles from './Search.module.scss';
 
 
 const Search = () => {
   return (
-    <div>
+    <div className={styles.Search}>
       <SearchForm />
       <FilterForm />
       <Hookahs />

@@ -1,0 +1,39 @@
+.FamousCompilationsCarousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  position: relative;
+
+  background-color: #C4C4C4;
+  border-radius: 8px;
+  height: 128px;
+
+  &__item {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 27px;
+
+    display: flex;
+    align-items: center;
+
+    &_dot {
+      background-color: #FF0000;
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:nth-child(2) {
+        margin: 0 15px;
+      }
+    }
+  }
+}

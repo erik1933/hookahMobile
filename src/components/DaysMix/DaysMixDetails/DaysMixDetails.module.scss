@@ -1,0 +1,76 @@
+.DaysMixDetails {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+
+  background-color: #FCFCFC;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  overflow: hidden;
+
+  &__img {
+    width: 67px;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  &__info {
+    width: calc(100% - 67px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0 23px 14px;
+
+    &_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    &_creator {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+
+      img {
+        margin-right: 15px;
+      }
+
+      .creator__name {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+      }
+      .rating {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #C22020;
+        margin-left: auto;
+        padding-right: 10px;
+      }
+    }
+
+    &_keywords {
+      display: flex;
+      align-self: center;
+      justify-content: flex-start;
+      width: 100%;
+      padding-right: 16px;
+      overflow-x: auto;
+    }
+  }
+}

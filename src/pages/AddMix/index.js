@@ -9,7 +9,6 @@ import AddingProcess from "../../components/AddingProcess";
 
 const AddMix = () => {
 
-
   return (
     <div className={styles.AddMix}>
       <div className={styles.wrapper}>

@@ -26,7 +26,7 @@ const withMixAboutItem = (Wrap) => {
           onClick={handleDetailsToggle}
         >
         <span className={styles.MixAboutItem__toggleBtn_text}>
-          <img src={btnIcon} alt=""/> {btnLabel}
+          <span><img src={btnIcon} alt=""/></span> {btnLabel}
         </span>
           <img
             src={chevronDown}

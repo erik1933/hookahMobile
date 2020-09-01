@@ -1,0 +1,19 @@
+.RatingBy {
+  background-color: #C4C4C4;
+  border-radius: 8px;
+  width: 96px;
+  height: 96px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .RatingBy {
+    width: 80px;
+    height: 80px;
+  }
+}
