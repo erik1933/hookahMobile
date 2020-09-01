@@ -8,7 +8,7 @@ import profilePage from '../../assets/progilepage-icon.svg';
 const navbar1Items = [
   {
     id: 1,
-    href: '/',
+    href: '/hookahMobile/',
     src: homePageIcon,
     alt: 'homepage'
   },
@@ -20,19 +20,19 @@ const navbar1Items = [
   },
   {
     id: 3,
-    href: '/addmix',
+    href: '/hookahMobile/addmix',
     src: addMixPageIcon,
     alt: 'add mix page'
   },
   {
     id: 4,
-    href: '/notifications',
+    href: '/hookahMobile/notifications',
     src: notificationsPage,
     alt: 'notifications page'
   },
   {
     id: 5,
-    href: '/profile',
+    href: '/hookahMobile/profile',
     src: profilePage,
     alt: ' profile page'
   },

@@ -19,10 +19,10 @@ function App() {
     <div className="App">
       <div className="container">
         <Switch>
-          <Route exact path='/' component={Mainpage} />
-          <Route exact path='/search' component={Search} />
-          <Route exact path='/mix' component={Mix} />
-          <Route exact path='/addmix' component={AddMix} />
+          <Route exact path='/hookahMobile/' component={Mainpage} />
+          <Route exact path='/hookahMobile/search' component={Search} />
+          <Route exact path='/hookahMobile/mix' component={Mix} />
+          <Route exact path='/hookahMobile/addmix' component={AddMix} />
         </Switch>
       </div>
     </div>
