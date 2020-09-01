@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hookahMobile/precache-manifest.eaaa485d8396e8c43eab5d39fa5f615e.js"
+  "/hookahMobile/precache-manifest.6ceaed4a5251eae27985a9ddbb28742a.js"
 );
 
 self.addEventListener('message', (event) => {
